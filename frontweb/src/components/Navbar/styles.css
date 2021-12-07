@@ -1,0 +1,41 @@
+.main-nav {
+  padding-left: 20px;
+  min-height: 70px;
+}
+
+.nav-logo-text,
+.nav-logo-text:hover {
+  color: #00285f;
+}
+
+.nav-logo-text h4 {
+  font-size: 24px;
+}
+
+.navbar-dark .custom-toggler {
+  border: none;
+  color: transparent;
+}
+
+.navbar-dark .custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 40, 95)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  width: 50px;
+  height: 50px;
+}
+
+.main-menu {
+  display: flex;
+  font-size: 18px;
+  width: 380px;
+  justify-content: space-between;
+}
+
+.main-menu a,
+.main-menu a:hover,
+.main-menu a.active {
+  color: #00285f;
+}
+
+.main-menu a.active {
+  font-weight: bold;
+}
