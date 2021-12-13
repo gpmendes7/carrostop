@@ -1,0 +1,34 @@
+.search-card {
+  display: flex;
+  flex-direction: row;
+  background: #ededed;
+  padding: 20px 10px;
+  box-shadow: none;
+  margin-bottom: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-card input[type='text'] {
+  padding: 10px 15px;
+  font-size: 14px;
+  border-color: transparent;
+  border-radius: 5px 0px 0px 5px;
+  width: 200px;
+  height: 40px;
+}
+
+.search-card input[type='text']:hover {
+  outline: none;
+}
+
+.search-card button {
+  border-radius: 0px 5px 5px 0px;
+  height: 40px;
+}
+
+.btn h6 {
+  color: #fff;
+  font-size: 14px;
+  text-transform: uppercase;
+}

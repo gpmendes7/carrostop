@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
 import { ReactComponent as MainImage } from '../../assets/images/carro-home.svg';
-import ButtonIcon from '../../components/Button';
 import './styles.css';
 
 const Home = () => {
@@ -19,7 +18,11 @@ const Home = () => {
       </div>
       <div className="base-card home-subcard">
         <Link to="/catalogo">
-          <ButtonIcon />
+          <div className="btn-container">
+            <button className="btn btn-secondary">
+              <h6>Ver Catálogo</h6>
+            </button>
+          </div>
         </Link>
         <p>Começe agora a navegar</p>
       </div>

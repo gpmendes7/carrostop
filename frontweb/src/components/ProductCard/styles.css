@@ -1,0 +1,38 @@
+.product-card {
+  display: flex;
+  flex-direction: column;
+  background: #ededed;
+  padding: 20px 15px;
+  box-shadow: none;
+  margin-bottom: 30px;
+}
+
+.product-card > h6 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.product-card p {
+  font-size: 14px;
+  font-style: italic;
+  color: #585858;
+  margin-bottom: 40px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-container button {
+  border-radius: 5px;
+  padding: 12px 80px;
+}
+
+.btn h6 {
+  color: #fff;
+  font-size: 14px;
+  text-transform: uppercase;
+}
