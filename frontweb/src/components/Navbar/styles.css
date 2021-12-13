@@ -27,13 +27,14 @@
   display: flex;
   font-size: 18px;
   width: 380px;
-  justify-content: space-between;
+  justify-content: flex-end;
 }
 
 .main-menu a,
 .main-menu a:hover,
 .main-menu a.active {
   color: #00285f;
+  margin-right: 50px;
 }
 
 .main-menu a.active {
