@@ -74,10 +74,18 @@
   .search-card {
     max-width: 1140px;
   }
+
+  .search-card input[type='text'] {
+    width: 800px;
+  }
 }
 
 @media (min-width: 1400px) {
   .search-card {
     max-width: 1320px;
+  }
+
+  .search-card input[type='text'] {
+    width: 900px;
   }
 }
