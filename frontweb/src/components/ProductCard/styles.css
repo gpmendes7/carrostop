@@ -20,18 +20,18 @@
   margin-bottom: 40px;
 }
 
-.btn-container {
+.product-card .btn-container {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.btn-container button {
-  border-radius: 5px;
-  padding: 12px 80px;
+.product-card .btn-container button {
+  padding: 12px 36px;
+  width: 100%;
 }
 
-.btn h6 {
+.product-card .btn h6 {
   color: #fff;
   font-size: 14px;
   text-transform: uppercase;

@@ -7,6 +7,7 @@
   margin-bottom: 30px;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 .search-card input[type='text'] {
@@ -24,6 +25,7 @@
 
 .search-card button {
   border-radius: 0px 5px 5px 0px;
+  width: 80px;
   height: 40px;
 }
 
@@ -31,4 +33,51 @@
   color: #fff;
   font-size: 14px;
   text-transform: uppercase;
+}
+
+@media (min-width: 576px) {
+  .search-card {
+    padding: 40px 20px;
+    max-width: 540px;
+  }
+
+  .search-card input[type='text'] {
+    width: 320px;
+  }
+
+  .search-card button {
+    width: 175px;
+  }
+}
+
+@media (min-width: 768px) {
+  .search-card {
+    max-width: 720px;
+  }
+
+  .search-card input[type='text'] {
+    width: 515px;
+  }
+}
+
+@media (min-width: 992px) {
+  .search-card {
+    max-width: 960px;
+  }
+
+  .search-card input[type='text'] {
+    width: 585px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .search-card {
+    max-width: 1140px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .search-card {
+    max-width: 1320px;
+  }
 }
