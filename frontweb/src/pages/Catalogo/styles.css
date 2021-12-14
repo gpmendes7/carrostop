@@ -12,3 +12,9 @@
 .container.my-4 {
   padding: 0;
 }
+
+@media (min-width: 1200px) {
+  .catalogo-container {
+    padding: 10px 150px 10px 150px;
+  }
+}

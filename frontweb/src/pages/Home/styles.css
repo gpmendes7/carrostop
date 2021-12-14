@@ -129,6 +129,10 @@
 }
 
 @media (min-width: 1200px) {
+  .home-container {
+    padding: 10px 150px 10px 150px;
+  }
+
   .home-card {
     flex-direction: row-reverse;
     padding: 85px 80px 85px 80px;
